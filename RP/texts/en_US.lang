@@ -1,0 +1,7 @@
+item.money:copper_coin.name=Copper Penny
+item.money:iron_coin.name=Iron Dollar
+item.money:gold_coin.name=Golden Crown
+item.money:bill.name=Paper Money
+item.money:crafting_guide.name=Crafting Guide
+tile.money:atm.name=ATM
+money:itemGroup.wallet.name=Money

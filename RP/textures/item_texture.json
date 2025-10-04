@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "money:copper_coin": {
+      "textures": "textures/items/copper_coin"
+    },
+    "money:iron_coin": {
+      "textures": "textures/items/iron_coin"
+    },
+    "money:gold_coin": {
+      "textures": "textures/items/gold_coin"
+    },
+    "money:bill": {
+      "textures": "textures/items/bill"
+    }
+  }
+}

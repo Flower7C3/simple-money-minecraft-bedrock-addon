@@ -1,0 +1,7 @@
+item.money:copper_coin.name=Miedziak
+item.money:iron_coin.name=Stalówka
+item.money:gold_coin.name=Złocisz
+item.money:bill.name=Banknot
+item.money:crafting_guide.name=Przewodnik Craftingu
+tile.money:atm.name=Bankomat
+money:itemGroup.wallet.name=Pieniądze

@@ -1,0 +1,26 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 0,
+  "texture_data": {
+    "money:atm_front": {
+      "textures": "textures/blocks/atm_front"
+    },
+    "money:atm_back": {
+      "textures": "textures/blocks/atm_back"
+    },
+    "money:atm_left": {
+      "textures": "textures/blocks/atm_left"
+    },
+    "money:atm_right": {
+      "textures": "textures/blocks/atm_right"
+    },
+    "money:atm_top": {
+      "textures": "textures/blocks/atm_top"
+    },
+    "money:atm_bottom": {
+      "textures": "textures/blocks/atm_bottom"
+    }
+  }
+}

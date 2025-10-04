@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "money:smelt_iron_nugget_from_iron_coin"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "money:iron_coin",
+    "output": "minecraft:iron_nugget"
+  }
+}

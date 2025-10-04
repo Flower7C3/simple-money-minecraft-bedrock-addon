@@ -1,0 +1,137 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "money:atm",
+      "menu_category": {
+        "category": "construction"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 10
+      },
+      "minecraft:geometry": "geometry.atm",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "money:atm_front",
+          "render_method": "alpha_test_single_sided"
+        },
+        "up": {
+          "texture": "money:atm_top",
+          "render_method": "alpha_test_single_sided"
+        },
+        "down": {
+          "texture": "money:atm_bottom",
+          "render_method": "alpha_test_single_sided"
+        },
+        "north": {
+          "texture": "money:atm_front",
+          "render_method": "alpha_test_single_sided"
+        },
+        "south": {
+          "texture": "money:atm_back",
+          "render_method": "alpha_test_single_sided"
+        },
+        "east": {
+          "texture": "money:atm_right",
+          "render_method": "alpha_test_single_sided"
+        },
+        "west": {
+          "texture": "money:atm_left",
+          "render_method": "alpha_test_single_sided"
+        }
+      },
+      "minecraft:display_name": "tile.money:atm.name",
+      "minecraft:crafting_table": {
+        "crafting_tags": [
+          "money"
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "money:smelt_gold_nugget_from_gold_coin"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "money:gold_coin",
+    "output": "minecraft:gold_nugget"
+  }
+}

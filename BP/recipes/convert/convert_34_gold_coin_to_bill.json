@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "money:convert_gold_coin_to_bill"
+    },
+    "tags": [
+      "money"
+    ],
+    "ingredients": [
+      {
+        "item": "money:gold_coin",
+        "count": 2
+      }
+    ],
+    "result": {
+      "item": "money:bill",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "money:gold_coin"
+      }
+    ]
+  }
+}

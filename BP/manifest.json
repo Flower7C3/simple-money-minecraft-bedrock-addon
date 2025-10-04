@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "",
+    "name": "Money",
+    "uuid": "9726255e-ec08-3aa5-adc0-449a21b33190",
+    "version": [
+      1,
+      0,
+      110
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "f09c9ad2-ebb7-325e-a248-569df51d1388",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "163ae4c4-ca70-3c93-8223-eaaa754af484",
+      "version": [
+        1,
+        0,
+        110
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Fokcio",
+      "Flower7C3"
+    ],
+    "generated_with": {
+      "bridge": [
+        "2.7.50"
+      ],
+      "dash": [
+        "0.11.7"
+      ]
+    }
+  }
+}
