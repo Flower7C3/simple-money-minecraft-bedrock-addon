@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-release:
     name: Build and release
-    uses: flower7c3/minecraft-addon-github-workflows/.github/workflows/build-and-release.yml@main
+    uses: Flower7C3/minecraft-addon-workflows/.github/workflows/build-and-release.yml@main
     with:
       project_name: "Simple Money"
       has_test_workflow: false
