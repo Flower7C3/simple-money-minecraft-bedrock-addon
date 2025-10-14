@@ -1,0 +1,15 @@
+name: Build & Release Workflow
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: flower7c3/minecraft-addon-workflows/.github/workflows/build-and-release.yml@main
+    with:
+      project_name: "Simple Money"
+      has_test_workflow: false
+      total_blocks: false
+    secrets: inherit
