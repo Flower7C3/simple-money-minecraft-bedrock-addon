@@ -1,12 +1,12 @@
 {
   "type": "minecraftBedrock",
   "name": "Simple money",
+  "description": "Adds a money system with coins, bills, and an ATM block.",
   "namespace": "bridge",
   "authors": [
     "tymot, Flower7C3"
   ],
   "targetVersion": "1.21.110",
-  "description": "",
   "experimentalGameplay": {
     "upcomingCreatorFeatures": true
   },

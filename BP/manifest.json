@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "description": "",
-    "name": "Money",
+    "description": "Money system with coins, bills, and an ATM block.",
+    "name": "Simple money",
     "uuid": "9726255e-ec08-3aa5-adc0-449a21b33190",
     "version": [
       1,
@@ -17,14 +17,14 @@
   },
   "modules": [
     {
-      "description": "",
+      "description": "Behavior",
       "type": "data",
-      "uuid": "f09c9ad2-ebb7-325e-a248-569df51d1388",
       "version": [
         1,
         0,
-        1
-      ]
+        162
+      ],
+      "uuid": "5b0819e0-4297-4a31-8875-0fd4781fef77"
     }
   ],
   "dependencies": [
@@ -42,6 +42,8 @@
       "Fokcio",
       "Flower7C3"
     ],
+    "url": "https://github.com/Flower7C3/simple-money-minecraft-bedrock-addon",
+    "license": "MIT",
     "generated_with": {
       "bridge": [
         "2.7.51"

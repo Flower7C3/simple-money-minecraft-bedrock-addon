@@ -1,6 +1,6 @@
-# Simple Money
+# Simple money
 
-A Minecraft Bedrock Edition addon that adds a simple money system with coins, bills, and an ATM block.
+A Minecraft Bedrock Edition addon that adds a money system with coins, bills, and an ATM block.
 
 ## Features
 
