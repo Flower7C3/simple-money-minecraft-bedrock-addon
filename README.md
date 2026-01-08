@@ -21,4 +21,4 @@ A Minecraft Bedrock Edition addon that adds a money system with coins, bills, an
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
