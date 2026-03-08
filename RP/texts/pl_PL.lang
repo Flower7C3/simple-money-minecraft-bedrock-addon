@@ -1,3 +1,6 @@
+pack.name=Proste pieniądze
+pack.description=System pieniężny z monetami, banknotami i blokiem bankomatu (ATM).
+
 item.money:copper_coin.name=Miedziak
 item.money:iron_coin.name=Stalówka
 item.money:gold_coin.name=Złocisz

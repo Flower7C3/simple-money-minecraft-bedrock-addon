@@ -1,3 +1,6 @@
+pack.name=Simple money
+pack.description=Money system with coins, bills, and an ATM block.
+
 item.money:copper_coin.name=Copper Penny
 item.money:iron_coin.name=Iron Dollar
 item.money:gold_coin.name=Golden Crown

@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Money system with coins, bills, and an ATM block.",
-    "name": "Simple money",
+    "name": "pack.name",
+    "description": "pack.description",
     "uuid": "163ae4c4-ca70-3c93-8223-eaaa754af484",
     "version": [
       1,
