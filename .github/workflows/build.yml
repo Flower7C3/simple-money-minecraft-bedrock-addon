@@ -20,5 +20,4 @@ jobs:
     with:
       project_name: "Simple money"
       has_test_workflow: false
-      total_blocks: false
     secrets: inherit
